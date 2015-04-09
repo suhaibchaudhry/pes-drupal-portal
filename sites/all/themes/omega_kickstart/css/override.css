@@ -1,6 +1,7 @@
 /*Top Header*/
 #zone-user-wrapper {
 	background-color: #11BAEA;
+	box-shadow: 0px 2px 10px #646464;
 }
 
 .block-block-2 .block-inner .content p, .block-block-1 .block-inner .content p {
@@ -21,21 +22,36 @@
 	color: inherit;
 }
 
+/*Title*/
 #zone-content #page-title {
 	display: none;
 }
 
+/*Information Blocks*/
 .block-block-4 {
 	background-color: #E3C9AC;
+	padding: 0px 25px;
+	box-shadow: 0 0 5px #646464;
 }
 
 .block-block-4 .learnmore {
 	background-color: #B48456;
 }
 
+.block-block-4 .infotitle {
+	color: #B48456;
+}
+
+.infotitle {
+	width: 100px;
+	padding: 10px 0px;
+	font-weight: bold;
+	color: #fff;
+}
+
 .learnmore {
 	color: #ffffff;	
-	margin: 10px 10px;
+	margin: 0px 0px 15px;
 	padding: 5px 15px;
 	float: right;
 	font-weight: bold;
@@ -43,6 +59,8 @@
 
 .block-block-5 {
 	background-color: #B48456;
+	padding: 0px 25px;
+	box-shadow: 0 0 5px #646464;
 }
 
 .block-block-5 .learnmore {
@@ -51,10 +69,24 @@
 
 .block-block-6 {
 	background-color: #C6C6B8;
+	padding: 0px 25px;
+	box-shadow: 0 0 5px #646464;
 }
 
 .block-block-6 .learnmore {
 	background-color: #56A4BC;
+}
+
+.block-block-7 {
+	background:
+		linear-gradient(
+			rgba(17, 186, 234, 0.70),
+			rgba(17, 186, 234, 0.70)
+		),
+		url("/sites/pes.com/files/bigstock-Medical-students-listening-sit-80149121.jpg");
+	background-size: cover;
+	height: 395px;
+	color: #000000;
 }
 
 /*html {
